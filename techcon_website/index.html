@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechCon</title>
+  </head>
+  <body>
+    <header>
+      <h1>TechCon</h1>
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <p>Promotional Video</p>
+        <video width="640" height="360" controls>
+          <!-- Multiple video formats for compatibility -->
+          <source src="video_2024-12-13_20-38-50.mp4" type="video/mp4" />
+
+          <!-- Fallback message for unsupported browsers -->
+          <p>
+            Your browser does not support HTML5 video. Here is a
+            <a href="promo-video.mp4">link to the video</a> instead.
+          </p>
+
+          <!-- Subtitles for accessibility -->
+          <track
+            kind="subtitles"
+            src="subtitles_en.vtt"
+            srclang="en"
+            label="English"
+          />
+        </video>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 techcon. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
